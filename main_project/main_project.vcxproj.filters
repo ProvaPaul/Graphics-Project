@@ -72,9 +72,16 @@
     <ClCompile Include="tvroom.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="corridor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="washroom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="globals.h">
@@ -127,6 +134,12 @@
     </ClInclude>
     <ClInclude Include="tvroom.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="corridor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="washroom.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
